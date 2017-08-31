@@ -1,22 +1,33 @@
 {
-  "name": "h5",
-  "version": "1.0.0",
-  "description": "",
-  "author": "nebel",
-  "private": true,
+  "name": "vug",
+  "version": "0.0.2",
+  "description": "vue scaffold cli ",
+  "author": {
+    "name": "nebel",
+    "email": "nebel@outlook.com"
+  },
+  "keywords": [
+    "vue",
+    "vue.js",
+    "cli"
+  ],
   "files": [
-    "build/cli"
+    "cli"
   ],
   "bin": {
-    "vug": "build/cli/generate.js"
+    "vug": "cli/generate.js"
   },
   "scripts": {
-    "dev": "node build/command/dev-server.js",
-    "dev app": "node build/command/dev-server.js entry/app",
-    "build": "node build/command/build.js",
-    "test": "node build/command/test-server.js",
-    "build.app": "node build/command/build.js app"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pronebel/vug"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pronebel/pronebel/issues"
+  },
+  "homepage": "https://github.com/pronebel/pronebel#readme",
   "dependencies": {
     "chai": "^4.1.0",
     "chai-string": "^1.4.0",
