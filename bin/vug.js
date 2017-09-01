@@ -9,6 +9,6 @@ require('commander')
 
 
     .command('module', 'generate yours module')
-
+    .command('entry', 'generate entry module')
 
     .parse(process.argv)

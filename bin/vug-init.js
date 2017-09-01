@@ -9,11 +9,11 @@ var home = require('user-home')
 var chalk = require('chalk')
 var inquirer = require('inquirer')
 var rm = require('rimraf').sync
-var logger = require('../lib/logger')
-var generate = require('../lib/generate')
+var logger = require('../lib/util/logger')
+var generate = require('../lib/gens/generate')
 //var checkVersion = require('../lib/check-version')
 
-var localPath = require('../lib/local-path')
+var localPath = require('../lib/util/local-path')
 
 var isLocalPath = localPath.isLocalPath
 var getTemplatePath = localPath.getTemplatePath
