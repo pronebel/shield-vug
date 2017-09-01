@@ -88,9 +88,10 @@ if (exists(to)) {
  */
 
 function run () {
-    var templateCache = path.join(home, 'vug-template')
+    var templateCache = path.join(home, '.vug-template','vue-seed')
     var spinner = ora('downloading...')
     spinner.start()
+    if (exists(templateCache)) rm(templateCache)
     download('pronebel/vue-seed', templateCache, function (err) {
         spinner.stop()
         if (err) logger.fatal('Failed to download '+ ': ' + err.message.trim())

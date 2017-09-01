@@ -1,14 +1,16 @@
 {
-  "name": "h5",
+  "name": "vug",
   "version": "1.0.0",
   "description": "",
   "author": "nebel",
-  "private": true,
+  "preferGlobal": true,
   "files": [
-    "cli"
+    "bin",
+    "lib"
   ],
   "bin": {
-    "vug": "cli/generate.js"
+    "vug": "bin/vug.js",
+    "vug-init": "bin/vug-init.js"
   },
   "scripts": {},
   "dependencies": {
