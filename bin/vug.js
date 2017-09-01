@@ -6,4 +6,9 @@ require('commander')
     .command('init', 'generate a new project from a template')
     .command('component', 'generate yours.vue ')
     .command('filter', 'generate yours.filter.js')
+
+
+    .command('module', 'generate yours module')
+
+
     .parse(process.argv)
