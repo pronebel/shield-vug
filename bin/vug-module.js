@@ -9,7 +9,7 @@
  *
  */
 
-var genFile = require('../lib/gens/gen-file')
+var genFile = require('../lib/gen-file')
 
 
 var arguments = process.argv.splice(2);
