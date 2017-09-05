@@ -12,7 +12,7 @@ if(filepath.indexOf("components")==-1){
 
 }else{
 
-    genFile('../templates/file/tpl.vue', 'src/' + filepath + ".component.vue");
+    genFile('../templates/file/component.vue', 'src/' + filepath + ".component.vue");
 
 }
 

@@ -14,7 +14,8 @@
   "preferGlobal": true,
   "files": [
     "bin",
-    "lib"
+    "lib",
+    "templates"
   ],
   "bin": {
     "vug": "bin/vug.js",
