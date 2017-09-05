@@ -6,6 +6,7 @@
 
 
 ## 生成新项目
+
     vug init xxxx  
 
 ## 生成mod模块
@@ -13,6 +14,7 @@
     vug module xxxx
     
     生成模块后,会更新module的配置文件表
+    
 ## 生成entry入口模块
 
     创建入口模块
@@ -28,6 +30,12 @@
     vug filter filename
     vug page filename
     vug service filename
+    
+## 生成style
+
+    初始化基础的style脚手架
+    
+    vug style xxx/template    
 
 
 
