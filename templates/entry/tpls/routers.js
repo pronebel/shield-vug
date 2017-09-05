@@ -3,18 +3,21 @@ import VueRouter from 'vue-router'
 import { sync } from 'vuex-router-sync'
 
 Vue.use(VueRouter)
-
-import routerXXX from '../../modules/xxx/routers/router'
-
+{{#each mods}}
+import router_{{this}} from '../../modules/{{this}}/routers/router'
+{{/each}}
 
 
 
 let defRouter = [
+
 ]
 
 let routerMap = [
-  ...routerCommom,
-
+  {{#each mods}}
+  ...router_{{this}},
+  {{/each}}
+  ...defRouter
 ]
 
 //  创建一个路由器实例
@@ -27,9 +30,6 @@ const router = new VueRouter({
 
 let indexScrollTop = 0
 router.beforeEach(function (to, from, next) {
-
-
-
   if (to.path !== '/') {
     indexScrollTop = document.body.scrollTop
   }
@@ -51,6 +51,6 @@ router.afterEach(route => {
   }
 })
 
-sync(store, router)
+sync(store, router);
 
-export default router
+export default router;
