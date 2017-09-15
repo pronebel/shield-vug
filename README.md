@@ -1,6 +1,7 @@
+# Deving
 
 ## 理念
-
+- 架构不只框架的设计里面,也包括代码的目录组织等
 - 任何文件都该有其从属的架构及目录
 - 通过命令辅助创建文件,并自动进行归类
 
@@ -11,7 +12,7 @@
 
 ## 生成mod模块
 
-    vug module xxxx
+    vug module module-name
     
     生成模块后,会更新module的配置文件表
     
@@ -36,6 +37,11 @@
     初始化基础的style脚手架
     
     vug style xxx/template    
+    
+## 增加依据具体项目的配置文件
+    
+    - 使用的样式语言:stylus less sass
+    -     
 
 
 
