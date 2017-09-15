@@ -5,6 +5,7 @@ dests/prod/
 dests/test/
 .idea/
 src/
+temp/
 mochawesome-reports
 npm-debug.log
 /mocks/edit.json

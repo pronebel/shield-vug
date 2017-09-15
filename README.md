@@ -1,7 +1,7 @@
 
 ## 理念
 
-- 任何文件都有其该从属的架构及目录
+- 任何文件都该有其从属的架构及目录
 - 通过命令辅助创建文件,并自动进行归类
 
 
@@ -25,11 +25,11 @@
     
 ## 生成独立的文件
     
-    vug component filename
-    vug directive filename
-    vug filter filename
-    vug page filename
-    vug service filename
+    vug component   filename
+    vug directive   filename
+    vug filter      filename
+    vug page        filename
+    vug service     filename
     
 ## 生成style
 
